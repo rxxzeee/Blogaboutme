@@ -9,6 +9,9 @@ html, body {
 }
 
 header {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #333;
     color: white;
     padding: 20px;
