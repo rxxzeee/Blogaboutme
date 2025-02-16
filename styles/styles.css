@@ -82,3 +82,27 @@ a {
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .mains {
+        flex-direction: column; /* Робимо колонки вертикальними на мобільних */
+        align-items: center;
+    }
+
+    .article {
+        width: 90%; /* Робимо ширину адаптивною */
+        max-width: 400px; /* Щоб не розтягувалося занадто */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0; /* Додаємо вертикальні відступи між пунктами меню */
+    }
+}
